@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+   font-weight: 300;
+   font-family: "Roboto", sans-serif;
+}
+.conatiner{
+    max-width: 1200px;
+    margin:0 auto;
+}
+nav{
+    box-shadow: 5px 5px 5px rgba(1 ,1 ,1 ,0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background: white;
+    padding: 10px;
+}
+.naviation {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.conatiner{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.icon{
+    font-size: 32 px;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.hero-image{
+    width: 512px;
+ height: 514px;
+ top: 132px;
+ left: 155px;
+ border-radius: 256px;
+ transition: 0.5 ease-in-out;
+}
+.hero-image:hover{
+    transition: 0.5 ease-in-out;
+    transform: scale(1.05);
+}
+.content{
+width: 562px;
+height: 377px;
+top: 201px;
+left: 736px;
+}
+.content h2{
+     background-color:#149F39;
+color: azure;
+width: 205px;
+height: 35px;
+top: 201px;
+left: 739px;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+padding: 9px;
+}
+.content h1{
+    width: 562px;
+height: 168px;
+top: 273px;
+left: 736px;font-family: Roboto;
+font-size: 72px;
+font-weight: 500;
+line-height: 84px;
+letter-spacing: 0em;
+text-align: left;
+}
+.content p{
+    width: 363px;
+height: 35px;
+top: 451px;
+left: 739px;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.content button{
+width: 174px;
+height: 57px;
+top: 521px;
+left: 739px;
+font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+background-color: #FFC066;
+color:white;
+transition: 0.56s ease-in-out;
+border-radius: 11px;
+margin-top: 35px;
+}
+.content button:hover{
+    background-color: orange;
+    transition: 0.43s ease-in-out;
+}
+.features{
+    display: flex;
+   margin-top: 100px;
+   gap: 15px;
+   justify-content: center;
+   margin-left: 90px;
+   margin-bottom: 50px;
+   
+}
+.feature{
+    display: flex;
+    gap:15px;
+    transition: 0.4 ease-in-out;
+}
+ 
+.feature:hover{
+    transition: 0.4 ease-in-out;
+   box-shadow: 5px 5px 5px rgba(10, 10, 10, 0.20);
+
+}
+.divider{
+    border: 1px solid gray;
+    margin:20px 0;
+}
+.heading{
+    text-align: center;
+}
+.heading h3{
+    background-color: #149F39;
+    color :white;
+   width: 137px;;
+    height: 43px;
+   
+    top: 954px;
+   margin-left: 585px;
+   padding: 9px 14px;
+   font-family: Roboto;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 28px;
+  
+}
+.heading h2{
+    width: 287px;
+    height: 55px;
+margin-top: 15px;
+ margin-left: 515px;
+ font-family: Roboto;
+font-size: 36px;
+font-weight: 400;
+line-height: 42px;
+
+}
+
+
+.grid{
+   display:grid;
+   align-items: center;
+   justify-content: center;
+   
+   
+  
+   
+   grid-template-areas: 
+   "I1 I1 I2 I3"
+   "I1 I1 I2 I7"
+   "I5 I4 I6 I7";
+}
+
+.item-1{
+    grid-area: I1;
+}
+.item-2{
+    grid-area: I2;
+}
+.item-3{
+    grid-area: I3;
+}
+.item-4{
+    grid-area: I4;
+}
+.item-5{
+    grid-area: I5;
+}
+.item-6{
+    grid-area: I6;
+}
+.item-7{
+    grid-area: I7;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    background-color:  rgb(248, 190, 202);
+   padding: 30px;
+}
+.heading1 h3{
+    margin-bottom: 20px;
+    color: gray;
+}
+   
